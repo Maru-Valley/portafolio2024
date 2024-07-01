@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="estilos.css" rel="stylesheet">
+        <!--Animaciones CSS CDN-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <title>Maria Valle | Portafolio Web</title>
+</head>
+<body>
+    <!--Barra de navegación-->
+    <nav>
+        <h1>Maria Valle</h1>
+        <ul>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#Skills" class="nav-link">Skills</a></li>
+            <li><a href="#projects" class="nav=link">Projects</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <button class="burger-menu" id="burger-menu">
+            <ion-icon class="bars" name="menu-outline"></ion-icon>
+        </button>
+    </nav>
+
+    <!--Seccion Hero-->
+    <section class="hero" id="about">
+        <img src="images/chica.tecnologica.jpg" alt="woman in tech" class="hero-img" loading="lazy">
+        <div class="bio animate__animated animate__shakeX">
+            <h2 class="bio-title">About me</h2>
+            <p>Passionate young woman who studies Veterinary Medicine and Zootechnics and wants to open her horizons with technology to apply it to the future in her work area.</p>
+        </div>   
+    </section>
+    
+    <!--About me-->
+    <section class="more-about">
+        <h2>More About Me</h2>
+        <p>Student of veterinary medicine and zootechnics, who is opening his perspective on technology and looking for a new approach to this field in his future work.</p> 
+        <p>He has taken several trainings in various areas such as surgery, first aid, pathology, autopsies, exotic diseases and nutrition.</p>
+        <p>Other training outside your area of ​​study: business administration for beginners, first aid for people.</p>
+    </section>
+
+    <!--Skills-->
+    <section class="skills" id="skills">
+        <h2 class="skill-header">My Top Skills</h2>
+            <div class="skills-wrapper">
+                <div class="firts-set animate__animated animate__pulse">
+                    <img src="images/icons8-html-5.svg" alt="HTML5" loading="lazy" class="icon icon-card">
+                    <img src="images/icons8-css3.svg" alt="CSS3" loading="lazy" class="icon icon-card">
+                    <img src="images/icons8-javascript.svg" alt="JavaScript" loading="lazy" class="icon icon-card">
+                </div>
+                <div class="Second-set animate__animated animate__pulse">
+                    <img src="images/icons8-bootstrap.svg" alt="Bootstrap" loading="lazy" class="icon icon-card">
+                    <img src="images/icons8-github-50.svg" alt="Git" loading="lazy" class="icon icon-card">
+                    <img src="images/icons8-react-native.svg" alt="React" loading="lazy" class="icon icon-card">
+                </div>
+            </div>
+    </section>
+
+    <!--Projects-->
+    <section class="projects" id="projects">
+        <h2 class="projects-title">Some of my Recent Projects</h2>
+        <div class="projects-container">
+            
+            <div class="project-container project-card">
+                <img src="images/project1.png" alt="" loading="lazy" class="project-pic">
+                <h3 class="project-title">Pinterest Clone</h3>
+                <p class="project-details"> This project is a clone of the Pinterest home interface, created purely with HTML5 and CSS3.</p>
+                <a href="#" target="_blank" class="project-link">Check it out!</a>
+            </div>
+            <div class="project-container project-card">
+                <img src="images/LisaLogo.png" alt="" loading="lazy" class="lisa-logo">
+                <h3 class="project-title">My first site: Lisa Simpson</h3>
+                <p class="project-details">This project is my first made site, created exclusively with HTML5 and CSS3.</p>
+                <a href="#" target="_blank" class="project-link">Check it out!</a>
+            </div>
+
+            <div class="project-container project-card">
+                <img src="images/workintheprogress.jpg" alt="" loading="lazy" class="work-project">
+                <h3 class="project-title">Project in progress</h3>
+                <p class="project-details">Work in progress...</p>
+                <a href="#" target="_blank" class="project-link">Stay tuned</a>
+            </div>
+        </div>
+    </section>
+
+    <!--Redes Sociales-->
+    <div class="socials">
+        <a href="https://www.instagram.com/maria.valle110012" target="_blank"><img src="icons/icons8-instagram-100.png" alt="instagram" loading="lazy" class="socicon"></a>
+    
+        <a href="https://github.com/Maru-Valley" target="_blank"><img src="icons/icons8-github-100.png" alt="github" loading="lazy" class="socicon"></a>
+   
+        <a href="https://wa.me/529999970634" target="_blank"><img src="icons/icons8-whatsapp-100.png" alt="whatsapp" loading="lazy" class="socicon"></a>
+    </div>
+
+    <!--Scroll button-->
+    <i class="scroll-up" id="scroll-up">
+        <img src="icons/Scroll button.gif" class="socicon up-arrow" alt="Scroll up">
+    </i>
+
+    <!--footer-->
+    <footer>
+        <p>Built with 💕❤️ by <a href="https://www.instagram.com/maria.valle110012" target="_blank">Maria Valle💖</a></p>
+    </footer>
+
+    <!--JavaScript link-->
+    <script src="app.js"></script>
+   
+
+         <!-- Ion icons scripts -->
+          <script
+            type="module"
+            src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+         ></script>
+         <script
+            nomodule
+            src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+         ></script>
+</body>
+</html>
